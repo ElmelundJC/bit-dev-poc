@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "org.scope-name",
+    "defaultScope": "bit-poc.crja-scope",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
