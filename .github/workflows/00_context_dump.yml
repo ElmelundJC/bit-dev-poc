@@ -1,4 +1,4 @@
-name: Context testing
+name: 00_Context testing
 on: workflow_dispatch
 
 jobs:

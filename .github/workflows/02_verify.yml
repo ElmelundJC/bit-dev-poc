@@ -1,4 +1,4 @@
-name: Tag and Export
+name: 02_Bit Verify
 on:
   workflow_dispatch:
 jobs:
@@ -14,5 +14,5 @@ jobs:
         uses: actions/checkout@v3
       - name: Initialize Bit
         uses: bit-tasks/init@v1
-      - name: Bit Tag and Export
-        uses: bit-tasks/tag-export@v1
+      - name: Bit Verify
+        uses: bit-tasks/verify@v1

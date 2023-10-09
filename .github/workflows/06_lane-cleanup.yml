@@ -1,4 +1,4 @@
-name: Bit Lane Cleanup
+name: 06_Bit Lane Cleanup
 on:
   pull_request:
     types:

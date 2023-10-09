@@ -1,4 +1,4 @@
-name: Bit Commit Bitmap
+name: 05_Bit Commit Bitmap
 on:
   workflow_dispatch:
 permissions:
