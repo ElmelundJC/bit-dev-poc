@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@babel/runtime':
-        specifier: 7.20.0
-        version: 7.20.0
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -75,7 +72,7 @@ importers:
         specifier: 29.3.1
         version: 29.3.1(@types/node@12.20.4)
       react:
-        specifier: ^18.0.0
+        specifier: 18.2.0
         version: 18.2.0
       react-dom:
         specifier: '>=18.0.0 <19.0.0'
@@ -84,6 +81,9 @@ importers:
         specifier: 6.8.1
         version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: 7.20.0
       '@teambit/envs.docs.env-overview-template':
         specifier: 0.0.2
         version: 0.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -112,8 +112,26 @@ importers:
         specifier: 5.9.5
         version: 5.9.5
 
+  crja-scope/apps/greetings:
+    devDependencies:
+      '@babel/runtime':
+        specifier: 7.20.0
+        version: 7.20.0
+      '@types/jest':
+        specifier: 26.0.20
+        version: 26.0.20
+      '@types/node':
+        specifier: 12.20.4
+        version: 12.20.4
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+
   node_modules/.bit_roots/bit-poc.crja-scope_hello-world-app:
     dependencies:
+      '@bit-poc/crja-scope.apps.greetings':
+        specifier: workspace:*
+        version: file:crja-scope/apps/greetings
       '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
@@ -164,6 +182,8 @@ importers:
         specifier: ^5.9.5
         version: 5.9.5
     dependenciesMeta:
+      '@bit-poc/crja-scope.apps.greetings':
+        injected: true
       '@bit-poc/crja-scope.get-hello-world':
         injected: true
       '@bit-poc/crja-scope.hello-world-app':
@@ -175,6 +195,9 @@ importers:
 
   node_modules/.bit_roots/bit-poc.crja-scope_my-react-env:
     dependencies:
+      '@bit-poc/crja-scope.apps.greetings':
+        specifier: workspace:*
+        version: file:crja-scope/apps/greetings
       '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
@@ -209,6 +232,8 @@ importers:
         specifier: 6.8.1
         version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
     dependenciesMeta:
+      '@bit-poc/crja-scope.apps.greetings':
+        injected: true
       '@bit-poc/crja-scope.get-hello-world':
         injected: true
       '@bit-poc/crja-scope.hello-world-app':
@@ -220,6 +245,9 @@ importers:
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
+      '@bit-poc/crja-scope.apps.greetings':
+        specifier: workspace:*
+        version: file:crja-scope/apps/greetings
       '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
@@ -233,6 +261,37 @@ importers:
         specifier: workspace:*
         version: file:scope-name/ui/hello-world
     dependenciesMeta:
+      '@bit-poc/crja-scope.apps.greetings':
+        injected: true
+      '@bit-poc/crja-scope.get-hello-world':
+        injected: true
+      '@bit-poc/crja-scope.hello-world-app':
+        injected: true
+      '@bit-poc/crja-scope.my-react-env':
+        injected: true
+      '@bit-poc/crja-scope.ui.hello-world':
+        injected: true
+
+  node_modules/.bit_roots/teambit.harmony_node:
+    dependencies:
+      '@bit-poc/crja-scope.apps.greetings':
+        specifier: workspace:*
+        version: file:crja-scope/apps/greetings
+      '@bit-poc/crja-scope.get-hello-world':
+        specifier: workspace:*
+        version: file:scope-name/get-hello-world
+      '@bit-poc/crja-scope.hello-world-app':
+        specifier: workspace:*
+        version: file:scope-name/hello-world-app(react-dom@18.2.0)
+      '@bit-poc/crja-scope.my-react-env':
+        specifier: workspace:*
+        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
+      '@bit-poc/crja-scope.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
+    dependenciesMeta:
+      '@bit-poc/crja-scope.apps.greetings':
+        injected: true
       '@bit-poc/crja-scope.get-hello-world':
         injected: true
       '@bit-poc/crja-scope.hello-world-app':
@@ -244,6 +303,9 @@ importers:
 
   node_modules/.bit_roots/teambit.node_node@1.0.6:
     dependencies:
+      '@bit-poc/crja-scope.apps.greetings':
+        specifier: workspace:*
+        version: file:crja-scope/apps/greetings
       '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
@@ -275,6 +337,8 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
     dependenciesMeta:
+      '@bit-poc/crja-scope.apps.greetings':
+        injected: true
       '@bit-poc/crja-scope.get-hello-world':
         injected: true
       '@bit-poc/crja-scope.hello-world-app':
@@ -11526,6 +11590,7 @@ packages:
 
   /@types/http-proxy@1.17.12:
     resolution: {integrity: sha512-kQtujO08dVtQ2wXAuSFfk9ASy3sug4+ogFR8Kd8UgP8PEuc1/G/8yjYRmp//PcDNJEUKOza/MrQu15bouEUCiw==}
+    requiresBuild: true
     dependencies:
       '@types/node': 16.18.57
 
@@ -11541,6 +11606,13 @@ packages:
     resolution: {integrity: sha512-kv43F9eb3Lhj+lr/Hn6OcLCs/sSM8bt+fIaP11rCYngfV6NVjzWXJ17owQtDQTL9tQ8WSLUrGsSJ6rJz0F1w1A==}
     dependencies:
       '@types/istanbul-lib-report': 3.0.1
+
+  /@types/jest@26.0.20:
+    resolution: {integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==}
+    dependencies:
+      jest-diff: 26.6.2
+      pretty-format: 26.6.2
+    dev: true
 
   /@types/jest@26.0.24:
     resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
@@ -15026,6 +15098,7 @@ packages:
 
   /eventemitter3@4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
+    requiresBuild: true
 
   /events@3.3.0:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
@@ -15289,6 +15362,7 @@ packages:
   /follow-redirects@1.15.3:
     resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
     engines: {node: '>=4.0'}
+    requiresBuild: true
     peerDependencies:
       debug: '*'
     peerDependenciesMeta:
@@ -15853,6 +15927,7 @@ packages:
   /http-proxy@1.18.1:
     resolution: {integrity: sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==}
     engines: {node: '>=8.0.0'}
+    requiresBuild: true
     dependencies:
       eventemitter3: 4.0.7
       follow-redirects: 1.15.3
@@ -16118,6 +16193,7 @@ packages:
   /is-plain-obj@3.0.0:
     resolution: {integrity: sha512-gwsOE28k+23GP1B6vFl1oVh/WOzmawBrKwo5Ev6wMKzPkaXaCDIQKzLnvsA42DRlbVTWorkgTKIviAKCWkfUwA==}
     engines: {node: '>=10'}
+    requiresBuild: true
 
   /is-plain-object@2.0.4:
     resolution: {integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==}
@@ -21526,6 +21602,11 @@ packages:
 
   /zwitch@1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
+
+  file:crja-scope/apps/greetings:
+    resolution: {directory: crja-scope/apps/greetings, type: directory}
+    name: '@bit-poc/crja-scope.apps.greetings'
+    dev: false
 
   file:scope-name/get-hello-world:
     resolution: {directory: scope-name/get-hello-world, type: directory}

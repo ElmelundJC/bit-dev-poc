@@ -9,6 +9,18 @@
  */
 
 {
+    "apps/greetings": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "crja-scope/apps/greetings",
+        "config": {
+            "teambit.harmony/node": {},
+            "teambit.envs/envs": {
+                "env": "teambit.harmony/node"
+            }
+        }
+    },
     "get-hello-world": {
         "scope": "bit-poc.crja-scope",
         "version": "0.0.1",
