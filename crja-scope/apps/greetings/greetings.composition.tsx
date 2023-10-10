@@ -13,5 +13,5 @@ import { greetings } from './greetings';
 import React from 'react';
 
 export function ReturnsCorrectGreeting() {
-  return <code>{greetings('America/New_York')}</code>;
+  return <code>{greetings('Europe/Rome')}</code>;
 }
