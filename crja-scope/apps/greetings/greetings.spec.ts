@@ -7,5 +7,5 @@
 import { greetings } from './greetings'; 
 
 it('returns different greetings for opposite timezones', () => {
-  expect(greetings('America/New_York')).not.toBe(greetings('Asia/Singapore'));
+  expect(greetings('Europe/Rome')).not.toBe(greetings('Asia/Singapore'));
 });
