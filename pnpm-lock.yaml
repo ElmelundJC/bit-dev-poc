@@ -112,23 +112,84 @@ importers:
         specifier: 5.9.5
         version: 5.9.5
 
-  node_modules/.bit_roots/org.scope-name_my-react-env:
+  node_modules/.bit_roots/bit-poc.crja-scope_hello-world-app:
     dependencies:
+      '@bit-poc/crja-scope.get-hello-world':
+        specifier: workspace:*
+        version: file:scope-name/get-hello-world
+      '@bit-poc/crja-scope.hello-world-app':
+        specifier: workspace:*
+        version: file:scope-name/hello-world-app(react-dom@18.2.0)
+      '@bit-poc/crja-scope.my-react-env':
+        specifier: workspace:*
+        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
+      '@bit-poc/crja-scope.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
-      '@org/scope-name.get-hello-world':
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.0
+        version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
+      graphql:
+        specifier: 15.8.0
+        version: 15.8.0
+      jest:
+        specifier: 29.3.1
+        version: 29.3.1(@types/node@12.20.4)
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: 6.8.1
+        version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
+    devDependencies:
+      '@teambit/react.apps.react-app-types':
+        specifier: 1.0.2
+        version: 1.0.2(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/react@18.2.12)(eslint@7.32.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.5
+      '@types/react':
+        specifier: 18.2.12
+        version: 18.2.12
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.10
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.9.5
+    dependenciesMeta:
+      '@bit-poc/crja-scope.get-hello-world':
+        injected: true
+      '@bit-poc/crja-scope.hello-world-app':
+        injected: true
+      '@bit-poc/crja-scope.my-react-env':
+        injected: true
+      '@bit-poc/crja-scope.ui.hello-world':
+        injected: true
+
+  node_modules/.bit_roots/bit-poc.crja-scope_my-react-env:
+    dependencies:
+      '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
+      '@bit-poc/crja-scope.hello-world-app':
         specifier: workspace:*
         version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
+      '@bit-poc/crja-scope.my-react-env':
         specifier: workspace:*
         version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
+      '@bit-poc/crja-scope.ui.hello-world':
         specifier: workspace:*
         version: file:scope-name/ui/hello-world
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -148,56 +209,56 @@ importers:
         specifier: 6.8.1
         version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@bit-poc/crja-scope.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@bit-poc/crja-scope.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@bit-poc/crja-scope.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@bit-poc/crja-scope.ui.hello-world':
         injected: true
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
-      '@org/scope-name.get-hello-world':
+      '@bit-poc/crja-scope.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
+      '@bit-poc/crja-scope.hello-world-app':
         specifier: workspace:*
         version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
+      '@bit-poc/crja-scope.my-react-env':
         specifier: workspace:*
         version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
+      '@bit-poc/crja-scope.ui.hello-world':
         specifier: workspace:*
         version: file:scope-name/ui/hello-world
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@bit-poc/crja-scope.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@bit-poc/crja-scope.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@bit-poc/crja-scope.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@bit-poc/crja-scope.ui.hello-world':
         injected: true
 
   node_modules/.bit_roots/teambit.node_node@1.0.6:
     dependencies:
+      '@bit-poc/crja-scope.get-hello-world':
+        specifier: workspace:*
+        version: file:scope-name/get-hello-world
+      '@bit-poc/crja-scope.hello-world-app':
+        specifier: workspace:*
+        version: file:scope-name/hello-world-app(react-dom@18.2.0)
+      '@bit-poc/crja-scope.my-react-env':
+        specifier: workspace:*
+        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
+      '@bit-poc/crja-scope.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
-      '@org/scope-name.get-hello-world':
-        specifier: workspace:*
-        version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
-        specifier: workspace:*
-        version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
-        specifier: workspace:*
-        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
-        specifier: workspace:*
-        version: file:scope-name/ui/hello-world
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -214,13 +275,13 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@bit-poc/crja-scope.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@bit-poc/crja-scope.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@bit-poc/crja-scope.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@bit-poc/crja-scope.ui.hello-world':
         injected: true
 
   scope-name/get-hello-world:
@@ -717,24 +778,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/helper-define-polyfill-provider@0.3.3(@babel/core@7.23.0):
-    resolution: {integrity: sha512-z5aQKU4IzbqCC1XH0nAqfsFLMVSo22SBKUc0BxGrLkolTdPTructy0ToNnlO2zA4j9Q/7pjMZf0DSY+DSTYzww==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-compilation-targets': 7.22.15
-      '@babel/helper-plugin-utils': 7.22.5
-      debug: 4.3.4
-      lodash.debounce: 4.0.8
-      resolve: 1.22.6
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-
   /@babel/helper-define-polyfill-provider@0.4.2(@babel/core@7.19.6):
     resolution: {integrity: sha512-k0qnnOqHn5dK9pZpfD5XXZ9SojAITdCKRn2Lp6rnDGzIbaP0rHyMPk/4wsSxVBVz4RfN0q6VpXWP2pDGIoQ7hw==}
     peerDependencies:
@@ -786,7 +829,6 @@ packages:
       resolve: 1.22.6
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@babel/helper-environment-visitor@7.22.20:
     resolution: {integrity: sha512-zfedSIzFhat/gFhWfHtgWvlec0nqB9YEIVrpuwjruLlXfUSnA8cJB0miHKwqDnQ7d32aKo2xt88/xZptwxbfhA==}
@@ -1167,22 +1209,6 @@ packages:
       '@babel/helper-remap-async-to-generator': 7.22.20(@babel/core@7.20.2)
       '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-async-generator-functions@7.20.7(@babel/core@7.23.0):
-    resolution: {integrity: sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-remap-async-to-generator': 7.22.20(@babel/core@7.23.0)
-      '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
     engines: {node: '>=6.9.0'}
@@ -1209,20 +1235,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.20.2)
-      '@babel/helper-plugin-utils': 7.22.5
-
-  /@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
 
   /@babel/plugin-proposal-class-static-block@7.21.0(@babel/core@7.19.6):
@@ -1254,21 +1266,6 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.20.2)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.20.2)
-
-  /@babel/plugin-proposal-class-static-block@7.21.0(@babel/core@7.23.0):
-    resolution: {integrity: sha512-XP5G9MWNUskFuP30IfFSEFB0Z6HzLIUcjYM4bYOPHXl7eiJ9HFv8tWj6TXTN5QODiEhDZAeI4hLok2iHFFV4hw==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.23.0)
 
   /@babel/plugin-proposal-decorators@7.20.2(@babel/core@7.20.2):
     resolution: {integrity: sha512-nkBH96IBmgKnbHQ5gXFrcmez+Z9S2EIDKDQGp005ROqBigc88Tky4rzCnlP/lnlj245dCEQl4/YyV0V1kYh5dw==}
@@ -1347,20 +1344,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-dynamic-import@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-export-namespace-from@7.18.9(@babel/core@7.19.6):
     resolution: {integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==}
     engines: {node: '>=6.9.0'}
@@ -1388,20 +1371,6 @@ packages:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.20.2)
-
-  /@babel/plugin-proposal-export-namespace-from@7.18.9(@babel/core@7.23.0):
-    resolution: {integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.23.0)
 
   /@babel/plugin-proposal-json-strings@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==}
@@ -1431,20 +1400,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-json-strings@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-logical-assignment-operators@7.20.7(@babel/core@7.19.6):
     resolution: {integrity: sha512-y7C7cZgpMIjWlKE5T7eJwp+tnRYM89HmRvWM5EQuB5BoHEONjmQ8lSNmBUwOyy/GFRsohJED51YBF79hE1djug==}
     engines: {node: '>=6.9.0'}
@@ -1472,20 +1427,6 @@ packages:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.20.2)
-
-  /@babel/plugin-proposal-logical-assignment-operators@7.20.7(@babel/core@7.23.0):
-    resolution: {integrity: sha512-y7C7cZgpMIjWlKE5T7eJwp+tnRYM89HmRvWM5EQuB5BoHEONjmQ8lSNmBUwOyy/GFRsohJED51YBF79hE1djug==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.23.0)
 
   /@babel/plugin-proposal-nullish-coalescing-operator@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==}
@@ -1515,20 +1456,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-nullish-coalescing-operator@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-numeric-separator@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==}
     engines: {node: '>=6.9.0'}
@@ -1556,20 +1483,6 @@ packages:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.20.2)
-
-  /@babel/plugin-proposal-numeric-separator@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.23.0)
 
   /@babel/plugin-proposal-object-rest-spread@7.11.0(@babel/core@7.11.6):
     resolution: {integrity: sha512-wzch41N4yztwoRw0ak+37wxwJM2oiIiy6huGCoqkvSTA9acYWcPfn9Y4aJqmFFJ70KTJUu29f3DQ43uJ9HXzEA==}
@@ -1649,23 +1562,6 @@ packages:
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.20.2)
       '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-object-rest-spread@7.20.2(@babel/core@7.23.0):
-    resolution: {integrity: sha512-Ks6uej9WFK+fvIMesSqbAto5dD8Dz4VuuFvGJFKgIGSkJuRGcrwGECPA1fDgQK3/DbExBJpEkTeYeB8geIFCSQ==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/compat-data': 7.22.20
-      '@babel/core': 7.23.0
-      '@babel/helper-compilation-targets': 7.22.15
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-optional-catch-binding@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==}
     engines: {node: '>=6.9.0'}
@@ -1693,20 +1589,6 @@ packages:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.20.2)
-
-  /@babel/plugin-proposal-optional-catch-binding@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.23.0)
 
   /@babel/plugin-proposal-optional-chaining@7.21.0(@babel/core@7.19.6):
     resolution: {integrity: sha512-p4zeefM72gpmEe2fkUr/OnOXpWEf8nAgk7ZYVqqfFiyIG7oFfVZcCrU64hWn5xp4tQ9LkV4bTIa5rD0KANpKNA==}
@@ -1738,21 +1620,6 @@ packages:
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
       '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-optional-chaining@7.21.0(@babel/core@7.23.0):
-    resolution: {integrity: sha512-p4zeefM72gpmEe2fkUr/OnOXpWEf8nAgk7ZYVqqfFiyIG7oFfVZcCrU64hWn5xp4tQ9LkV4bTIa5rD0KANpKNA==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-private-methods@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==}
     engines: {node: '>=6.9.0'}
@@ -1779,20 +1646,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.20.2)
-      '@babel/helper-plugin-utils': 7.22.5
-
-  /@babel/plugin-proposal-private-methods@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
 
   /@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2(@babel/core@7.19.6):
@@ -1828,7 +1681,6 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.23.0
-    dev: false
 
   /@babel/plugin-proposal-private-property-in-object@7.21.11(@babel/core@7.19.6):
     resolution: {integrity: sha512-0QZ8qP/3RLDVBwBFoWAwCtgcDZJVwA5LUJRZU8x2YFfKNuFq161wK3cuGrALu5yiPu+vzwTAg/sMWVNeWeNyaw==}
@@ -1862,22 +1714,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.20.2)
 
-  /@babel/plugin-proposal-private-property-in-object@7.21.11(@babel/core@7.23.0):
-    resolution: {integrity: sha512-0QZ8qP/3RLDVBwBFoWAwCtgcDZJVwA5LUJRZU8x2YFfKNuFq161wK3cuGrALu5yiPu+vzwTAg/sMWVNeWeNyaw==}
-    engines: {node: '>=6.9.0'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.23.0)
-
   /@babel/plugin-proposal-unicode-property-regex@7.18.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
     engines: {node: '>=4'}
@@ -1904,20 +1740,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.20.2)
-      '@babel/helper-plugin-utils': 7.22.5
-
-  /@babel/plugin-proposal-unicode-property-regex@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
-    engines: {node: '>=4'}
-    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
 
   /@babel/plugin-syntax-async-generators@7.8.4(@babel/core@7.19.6):
@@ -2218,7 +2040,6 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/plugin-syntax-import-meta@7.10.4(@babel/core@7.19.6):
     resolution: {integrity: sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==}
@@ -2711,7 +2532,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/plugin-transform-arrow-functions@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-26lTNXoVRdAnsaDXPpvCNUq+OVWEVC6bx7Vvz9rC53F2bagUWW4u4ii2+h8Fejfh7RYqPxn+libeFBBck9muEw==}
@@ -2794,7 +2614,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-remap-async-to-generator': 7.22.20(@babel/core@7.23.0)
       '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-async-to-generator@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-b1A8D8ZzE/VhNDoV1MSJTnpKkCG5bJo+19R4o4oy03zM7ws8yEMK755j61Dc3EyvdysbqH5BOOTquJ7ZX9C6vQ==}
@@ -2949,7 +2768,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/plugin-transform-class-static-block@7.22.11(@babel/core@7.19.6):
     resolution: {integrity: sha512-GMM8gGmqI7guS/llMFk1bJDkKfn3v3C4KHK9Yg1ey5qcHcOlKb0QvcMrgzvxo+T03/4szNh5lghY+fEC98Kq9g==}
@@ -2993,7 +2811,6 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-classes@7.22.15(@babel/core@7.19.6):
     resolution: {integrity: sha512-VbbC3PGjBdE0wAWDdHM9G8Gm977pnYI0XpqMd6LrKISj8/DJXEsWqgRuTYaNE9Bv0JGhTZUzHDlMk18IpOuoqw==}
@@ -3244,7 +3061,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-exponentiation-operator@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-vIpJFNM/FjZ4rh1myqIya9jXwrwwgFRHPjT3DkUA9ZLHuzox8jiXkOLvwm1H+PQIP3CqfC++WPKeuDi0Sjdj1g==}
@@ -3324,7 +3140,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-flow-strip-types@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-tujNbZdxdG0/54g/oua8ISToaXTFBf8EnSb5PgQSciIXWOWKX3S4+JR7ZE9ol8FZwf9kxitzkGQ+QWeov/mCiA==}
@@ -3456,7 +3271,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-literals@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-fTLj4D79M+mepcw3dgFBTIDYpbcB9Sm0bpm4ppXPaO+U+PKFFyV9MGRvS0gvGw62sd10kT5lRMKXAADb9pWy8g==}
@@ -3533,7 +3347,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-member-expression-literals@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-RZEdkNtzzYCFl9SE9ATaUMTj2hqMb4StarOJLrZRbqqU4HSBE7UlBw9WBWQiDzrJZJdUWiMTVDI6Gv/8DPvfew==}
@@ -3660,20 +3473,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-module-transforms': 7.23.0(@babel/core@7.20.2)
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-simple-access': 7.22.5
-
-  /@babel/plugin-transform-modules-commonjs@7.19.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-8PIa1ym4XRTKuSsOUXqDG0YaOlEuTVvHMe5JCfgBMOtHvJKw/4NGovEGN33viISshG/rZNVrACiBmPQLvWN8xQ==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-module-transforms': 7.23.0(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-simple-access': 7.22.5
 
@@ -3958,7 +3757,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-numeric-separator@7.22.11(@babel/core@7.19.6):
     resolution: {integrity: sha512-3dzU4QGPsILdJbASKhF/V2TVP+gJya1PsueQCxIPCEcerqF21oEcrob4mzjsp2Py/1nLfF5m+xYNMDpmA8vffg==}
@@ -3999,7 +3797,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-object-rest-spread@7.22.15:
     resolution: {integrity: sha512-fEB+I1+gAmfAyxZcX1+ZUwLeAuuf8VIg67CTznZE0MqVFumWkh8xWtn58I4dxdVf080wn7gzWoF8vndOViJe9Q==}
@@ -4065,7 +3862,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.23.0)
       '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-object-super@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-klXqyaT9trSjIUrcsYIfETAzmOEZL3cBYqOYLJxBHfMFFggmXOv+NYSX/Jbs9mzMVESw/WycLFPRx8ba/b2Ipw==}
@@ -4145,7 +3941,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-optional-chaining@7.23.0(@babel/core@7.19.6):
     resolution: {integrity: sha512-sBBGXbLJjxTzLBF5rFWaikMnOGOk/BmK6vVByIdEggZ7Vn6CvWXZyRkkLFK6WE0IF8jSliyOkUN6SScFgzCM0g==}
@@ -4288,7 +4083,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/plugin-transform-private-property-in-object@7.22.11(@babel/core@7.19.6):
     resolution: {integrity: sha512-sSCbqZDBKHetvjSwpyWzhuHkmW5RummxJBVbYLkGkaiTOWGxml7SXt0iWa03bzxFIx7wOj3g/ILRd0RcJKBeSQ==}
@@ -4335,7 +4129,6 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.23.0)
-    dev: false
 
   /@babel/plugin-transform-property-literals@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-TiOArgddK3mK/x1Qwf5hay2pxI6wCZnvQqrFSqbtg1GLl2JcNMitVH/YnqjP+M31pLUeTfzY1HAXFDnUBV30rQ==}
@@ -4914,7 +4707,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/plugin-transform-unicode-regex@7.22.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-028laaOKptN5vHJf9/Arr/HiJekMd41hOEZYvNsrsXqJ7YPYuX2bQxh31fkZzGmq3YqHRJzYFFAVYvKfMPKqyg==}
@@ -4994,7 +4786,6 @@ packages:
       '@babel/core': 7.23.0
       '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.23.0)
       '@babel/helper-plugin-utils': 7.22.5
-    dev: false
 
   /@babel/preset-env@7.20.2:
     resolution: {integrity: sha512-1G0efQEWR1EHkKvKHqbG+IN/QdgwfByUpM5V5QroDzGV2t3S/WXNQd693cHiHTlCFMpr9B6FkPFXDA2lQcKoDg==}
@@ -5259,94 +5050,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/preset-env@7.20.2(@babel/core@7.23.0):
-    resolution: {integrity: sha512-1G0efQEWR1EHkKvKHqbG+IN/QdgwfByUpM5V5QroDzGV2t3S/WXNQd693cHiHTlCFMpr9B6FkPFXDA2lQcKoDg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/compat-data': 7.22.20
-      '@babel/core': 7.23.0
-      '@babel/helper-compilation-targets': 7.22.15
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-validator-option': 7.22.15
-      '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-proposal-async-generator-functions': 7.20.7(@babel/core@7.23.0)
-      '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-class-static-block': 7.21.0(@babel/core@7.23.0)
-      '@babel/plugin-proposal-dynamic-import': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-export-namespace-from': 7.18.9(@babel/core@7.23.0)
-      '@babel/plugin-proposal-json-strings': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-logical-assignment-operators': 7.20.7(@babel/core@7.23.0)
-      '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-numeric-separator': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-object-rest-spread': 7.20.2(@babel/core@7.23.0)
-      '@babel/plugin-proposal-optional-catch-binding': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-optional-chaining': 7.21.0(@babel/core@7.23.0)
-      '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-proposal-private-property-in-object': 7.21.11(@babel/core@7.23.0)
-      '@babel/plugin-proposal-unicode-property-regex': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.23.0)
-      '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.23.0)
-      '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.23.0)
-      '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-import-assertions': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.23.0)
-      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.23.0)
-      '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.23.0)
-      '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.23.0)
-      '@babel/plugin-syntax-top-level-await': 7.14.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-arrow-functions': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-async-to-generator': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-block-scoped-functions': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-block-scoping': 7.23.0(@babel/core@7.23.0)
-      '@babel/plugin-transform-classes': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-transform-computed-properties': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-destructuring': 7.23.0(@babel/core@7.23.0)
-      '@babel/plugin-transform-dotall-regex': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-duplicate-keys': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-exponentiation-operator': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-for-of': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-transform-function-name': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-literals': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-member-expression-literals': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-modules-amd': 7.23.0(@babel/core@7.23.0)
-      '@babel/plugin-transform-modules-commonjs': 7.19.6(@babel/core@7.23.0)
-      '@babel/plugin-transform-modules-systemjs': 7.23.0(@babel/core@7.23.0)
-      '@babel/plugin-transform-modules-umd': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-named-capturing-groups-regex': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-new-target': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-object-super': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-transform-property-literals': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-regenerator': 7.22.10(@babel/core@7.23.0)
-      '@babel/plugin-transform-reserved-words': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-shorthand-properties': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-spread': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-sticky-regex': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-template-literals': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-typeof-symbol': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-unicode-escapes': 7.22.10(@babel/core@7.23.0)
-      '@babel/plugin-transform-unicode-regex': 7.22.5(@babel/core@7.23.0)
-      '@babel/preset-modules': 0.1.6(@babel/core@7.23.0)
-      '@babel/types': 7.23.0
-      babel-plugin-polyfill-corejs2: 0.3.3(@babel/core@7.23.0)
-      babel-plugin-polyfill-corejs3: 0.6.0(@babel/core@7.23.0)
-      babel-plugin-polyfill-regenerator: 0.4.1(@babel/core@7.23.0)
-      core-js-compat: 3.33.0
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-
   /@babel/preset-env@7.22.15:
     resolution: {integrity: sha512-tZFHr54GBkHk6hQuVA8w4Fmq+MSPsfvMG0vPnOYyTnJpyfMqybL8/MbNCPRT9zc2KBO2pe4tq15g6Uno4Jpoag==}
     engines: {node: '>=6.9.0'}
@@ -5362,14 +5065,14 @@ packages:
       '@babel/helper-validator-option': 7.22.15
       '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.22.15(@babel/core@7.19.6)
       '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': 7.22.15(@babel/core@7.19.6)
-      '@babel/plugin-proposal-private-property-in-object': 7.21.0-placeholder-for-preset-env.2(@babel/core@7.23.0)
+      '@babel/plugin-proposal-private-property-in-object': 7.21.0-placeholder-for-preset-env.2(@babel/core@7.20.2)
       '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.19.6)
       '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.19.6)
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.19.6)
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.19.6)
       '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.19.6)
       '@babel/plugin-syntax-import-assertions': 7.22.5(@babel/core@7.19.6)
-      '@babel/plugin-syntax-import-attributes': 7.22.5(@babel/core@7.23.0)
+      '@babel/plugin-syntax-import-attributes': 7.22.5(@babel/core@7.20.2)
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.19.6)
       '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.19.6)
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.19.6)
@@ -5429,11 +5132,11 @@ packages:
       '@babel/plugin-transform-unicode-property-regex': 7.22.5(@babel/core@7.19.6)
       '@babel/plugin-transform-unicode-regex': 7.22.5(@babel/core@7.19.6)
       '@babel/plugin-transform-unicode-sets-regex': 7.22.5(@babel/core@7.19.6)
-      '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.23.0)
+      '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.20.2)
       '@babel/types': 7.23.0
-      babel-plugin-polyfill-corejs2: 0.4.5(@babel/core@7.23.0)
-      babel-plugin-polyfill-corejs3: 0.8.4(@babel/core@7.23.0)
-      babel-plugin-polyfill-regenerator: 0.5.2(@babel/core@7.23.0)
+      babel-plugin-polyfill-corejs2: 0.4.5(@babel/core@7.20.2)
+      babel-plugin-polyfill-corejs3: 0.8.4(@babel/core@7.20.2)
+      babel-plugin-polyfill-regenerator: 0.5.2(@babel/core@7.20.2)
       core-js-compat: 3.33.0
       semver: 6.3.1
     transitivePeerDependencies:
@@ -5719,7 +5422,6 @@ packages:
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /@babel/preset-modules@0.1.6(@babel/core@7.19.6):
     resolution: {integrity: sha512-ID2yj6K/4lKfhuU3+EX4UvNbIt7eACFbHmNUjzA+ep+B5971CknnA/9DEWKbRokfbbtblxxxXFJJrH47UEAMVg==}
@@ -5748,21 +5450,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-proposal-unicode-property-regex': 7.18.6(@babel/core@7.20.2)
       '@babel/plugin-transform-dotall-regex': 7.22.5(@babel/core@7.20.2)
-      '@babel/types': 7.23.0
-      esutils: 2.0.3
-
-  /@babel/preset-modules@0.1.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-ID2yj6K/4lKfhuU3+EX4UvNbIt7eACFbHmNUjzA+ep+B5971CknnA/9DEWKbRokfbbtblxxxXFJJrH47UEAMVg==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-proposal-unicode-property-regex': 7.18.6(@babel/core@7.23.0)
-      '@babel/plugin-transform-dotall-regex': 7.22.5(@babel/core@7.23.0)
       '@babel/types': 7.23.0
       esutils: 2.0.3
 
@@ -5805,7 +5492,6 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/types': 7.23.0
       esutils: 2.0.3
-    dev: false
 
   /@babel/preset-react@7.18.6:
     resolution: {integrity: sha512-zXr6atUmyYdiWRVLOZahakYmOBHtWc2WGCkP8PYTgZi0iJXDY2CN180TdrIW4OGOAdLc7TifzDIvtx6izaRIzg==}
@@ -5839,23 +5525,6 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.19.6)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.19.6)
       '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.19.6)
-
-  /@babel/preset-react@7.18.6(@babel/core@7.23.0):
-    resolution: {integrity: sha512-zXr6atUmyYdiWRVLOZahakYmOBHtWc2WGCkP8PYTgZi0iJXDY2CN180TdrIW4OGOAdLc7TifzDIvtx6izaRIzg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-plugin-utils': 7.22.5
-      '@babel/helper-validator-option': 7.22.15
-      '@babel/plugin-transform-react-display-name': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
-      '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.0)
-      '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.23.0)
 
   /@babel/preset-react@7.22.15:
     resolution: {integrity: sha512-Csy1IJ2uEh/PecCBXXoZGAZBeCATTuePzCSB7dLYWS0vOEj6CNpjxIhW4duWwZodBNueH7QO14WbGn8YyeuN9w==}
@@ -5907,7 +5576,6 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.0)
       '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.23.0)
-    dev: false
 
   /@babel/preset-typescript@7.18.6(@babel/core@7.20.2):
     resolution: {integrity: sha512-s9ik86kXBAnD760aybBucdpnLsAt0jK1xqJn2juOn9lkOvSHV60os5hxoVJsPzMQxvnUJFAlkont2DvvaYEBtQ==}
@@ -7019,8 +6687,8 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       '@babel/plugin-transform-react-constant-elements': 7.22.5(@babel/core@7.23.0)
-      '@babel/preset-env': 7.20.2(@babel/core@7.23.0)
-      '@babel/preset-react': 7.18.6(@babel/core@7.23.0)
+      '@babel/preset-env': 7.22.15(@babel/core@7.23.0)
+      '@babel/preset-react': 7.22.15(@babel/core@7.23.0)
       '@babel/preset-typescript': 7.23.0(@babel/core@7.23.0)
       '@svgr/core': 6.5.1
       '@svgr/plugin-jsx': 6.5.1(@svgr/core@6.5.1)
@@ -7168,7 +6836,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7184,7 +6852,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7201,7 +6869,7 @@ packages:
         optional: true
     dependencies:
       '@teambit/base-ui.elements.dots-loader': 1.0.3(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7431,7 +7099,7 @@ packages:
     dependencies:
       '@teambit/base-ui.text.text-sizes': 1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.theme.sizes': 1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8385,7 +8053,7 @@ packages:
         optional: true
     dependencies:
       '@teambit/documenter.ui.linked-heading': 4.1.8(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8515,7 +8183,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8549,7 +8217,7 @@ packages:
         optional: true
     dependencies:
       '@teambit/evangelist.elements.icon': 1.0.5(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8565,7 +8233,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8581,7 +8249,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8598,7 +8266,7 @@ packages:
         optional: true
     dependencies:
       '@teambit/documenter.ui.copied-message': 4.1.6(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       copy-to-clipboard: 3.3.3
       core-js: 3.33.0
       react: 18.2.0
@@ -8616,7 +8284,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8650,7 +8318,7 @@ packages:
         optional: true
     dependencies:
       '@teambit/base-ui.text.heading': 1.0.4(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8666,7 +8334,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8682,7 +8350,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8698,7 +8366,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8734,7 +8402,7 @@ packages:
     dependencies:
       '@teambit/documenter.ui.anchor': 4.0.8(react-dom@18.2.0)(react@18.2.0)
       '@teambit/documenter.ui.heading': 4.1.6(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8750,7 +8418,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8768,7 +8436,7 @@ packages:
     dependencies:
       '@teambit/base-ui.text.paragraph': 1.0.3(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.theme.sizes': 1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8837,7 +8505,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8853,7 +8521,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8923,7 +8591,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8939,7 +8607,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8955,7 +8623,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -8986,7 +8654,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.3.1
       core-js: 3.33.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -12815,21 +12483,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /babel-plugin-polyfill-corejs2@0.3.3(@babel/core@7.23.0):
-    resolution: {integrity: sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/compat-data': 7.22.20
-      '@babel/core': 7.23.0
-      '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.23.0)
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-
   /babel-plugin-polyfill-corejs2@0.4.5(@babel/core@7.19.6):
     resolution: {integrity: sha512-19hwUH5FKl49JEsvyTcoHakh6BE0wgXLLptIyKZ3PijHc/Ci521wygORCUCCred+E/twuqRyAkE02BAWPmsHOg==}
     peerDependencies:
@@ -12875,7 +12528,6 @@ packages:
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /babel-plugin-polyfill-corejs3@0.6.0(@babel/core@7.19.6):
     resolution: {integrity: sha512-+eHqR6OPcBhJOGgsIar7xoAB1GcSwVUA3XjAd7HJNzOXT4wv6/H7KIdA/Nc60cvUlDbKApmqNvD1B1bzOt4nyA==}
@@ -12901,20 +12553,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.20.2)
-      core-js-compat: 3.33.0
-    transitivePeerDependencies:
-      - supports-color
-
-  /babel-plugin-polyfill-corejs3@0.6.0(@babel/core@7.23.0):
-    resolution: {integrity: sha512-+eHqR6OPcBhJOGgsIar7xoAB1GcSwVUA3XjAd7HJNzOXT4wv6/H7KIdA/Nc60cvUlDbKApmqNvD1B1bzOt4nyA==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.23.0)
       core-js-compat: 3.33.0
     transitivePeerDependencies:
       - supports-color
@@ -12961,7 +12599,6 @@ packages:
       core-js-compat: 3.33.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /babel-plugin-polyfill-regenerator@0.4.1(@babel/core@7.19.6):
     resolution: {integrity: sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw==}
@@ -12986,19 +12623,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.20.2)
-    transitivePeerDependencies:
-      - supports-color
-
-  /babel-plugin-polyfill-regenerator@0.4.1(@babel/core@7.23.0):
-    resolution: {integrity: sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.0
-      '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.23.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -13041,7 +12665,6 @@ packages:
       '@babel/helper-define-polyfill-provider': 0.4.2(@babel/core@7.23.0)
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /babel-plugin-transform-react-remove-prop-types@0.4.24:
     resolution: {integrity: sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==}
@@ -13829,17 +13452,6 @@ packages:
       postcss: 8.4.19
       postcss-selector-parser: 6.0.13
 
-  /css-declaration-sorter@6.4.1(postcss@8.4.19):
-    resolution: {integrity: sha512-rtdthzxKuyq6IzqX6jEcIzQF/YqccluefyCYheovBOLhFT/drQA9zj/UbRAa9J7C0o6EG6u3E6g+vKkay7/k3g==}
-    engines: {node: ^10 || ^12 || >=14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      postcss: 8.4.19
-
   /css-declaration-sorter@6.4.1(postcss@8.4.31):
     resolution: {integrity: sha512-rtdthzxKuyq6IzqX6jEcIzQF/YqccluefyCYheovBOLhFT/drQA9zj/UbRAa9J7C0o6EG6u3E6g+vKkay7/k3g==}
     engines: {node: ^10 || ^12 || >=14}
@@ -13850,7 +13462,6 @@ packages:
         optional: true
     dependencies:
       postcss: 8.4.31
-    dev: false
 
   /css-has-pseudo@3.0.4(postcss@8.4.19):
     resolution: {integrity: sha512-Vse0xpR1K9MNlp2j5w1pgWIJtm1a8qS0JwS9goFYcImjlHEmywP9VUF05aGBXzGpDJF86QXk4L0ypBmwPhGArw==}
@@ -13893,12 +13504,12 @@ packages:
       webpack:
         optional: true
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-modules-extract-imports: 3.0.0(postcss@8.4.19)
-      postcss-modules-local-by-default: 4.0.3(postcss@8.4.19)
-      postcss-modules-scope: 3.0.0(postcss@8.4.19)
-      postcss-modules-values: 4.0.0(postcss@8.4.19)
+      icss-utils: 5.1.0(postcss@8.4.31)
+      postcss: 8.4.31
+      postcss-modules-extract-imports: 3.0.0(postcss@8.4.31)
+      postcss-modules-local-by-default: 4.0.3(postcss@8.4.31)
+      postcss-modules-scope: 3.0.0(postcss@8.4.31)
+      postcss-modules-values: 4.0.0(postcss@8.4.31)
       postcss-value-parser: 4.2.0
       semver: 7.5.4
       webpack: 5.84.1(esbuild@0.14.29)
@@ -13918,10 +13529,10 @@ packages:
       webpack:
         optional: true
     dependencies:
-      cssnano: 5.1.15(postcss@8.4.19)
+      cssnano: 5.1.15(postcss@8.4.31)
       jest-worker: 27.5.1
       p-limit: 3.1.0
-      postcss: 8.4.19
+      postcss: 8.4.31
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       source-map: 0.6.1
@@ -14069,7 +13680,7 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  /cssnano-preset-default@5.2.14(postcss@8.4.19):
+  /cssnano-preset-default@5.2.14(postcss@8.4.31):
     resolution: {integrity: sha512-t0SFesj/ZV2OTylqQVOrFgEh5uanxbO6ZAdeCrNsUQ6fVuXwYTxJPNAGvGTxHbD68ldIJNec7PyYZDBrfDQ+6A==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -14078,36 +13689,36 @@ packages:
       postcss:
         optional: true
     dependencies:
-      css-declaration-sorter: 6.4.1(postcss@8.4.19)
-      cssnano-utils: 3.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-calc: 8.2.4(postcss@8.4.19)
-      postcss-colormin: 5.3.1(postcss@8.4.19)
-      postcss-convert-values: 5.1.3(postcss@8.4.19)
-      postcss-discard-comments: 5.1.2(postcss@8.4.19)
-      postcss-discard-duplicates: 5.1.0(postcss@8.4.19)
-      postcss-discard-empty: 5.1.1(postcss@8.4.19)
-      postcss-discard-overridden: 5.1.0(postcss@8.4.19)
-      postcss-merge-longhand: 5.1.7(postcss@8.4.19)
-      postcss-merge-rules: 5.1.4(postcss@8.4.19)
-      postcss-minify-font-values: 5.1.0(postcss@8.4.19)
-      postcss-minify-gradients: 5.1.1(postcss@8.4.19)
-      postcss-minify-params: 5.1.4(postcss@8.4.19)
-      postcss-minify-selectors: 5.2.1(postcss@8.4.19)
-      postcss-normalize-charset: 5.1.0(postcss@8.4.19)
-      postcss-normalize-display-values: 5.1.0(postcss@8.4.19)
-      postcss-normalize-positions: 5.1.1(postcss@8.4.19)
-      postcss-normalize-repeat-style: 5.1.1(postcss@8.4.19)
-      postcss-normalize-string: 5.1.0(postcss@8.4.19)
-      postcss-normalize-timing-functions: 5.1.0(postcss@8.4.19)
-      postcss-normalize-unicode: 5.1.1(postcss@8.4.19)
-      postcss-normalize-url: 5.1.0(postcss@8.4.19)
-      postcss-normalize-whitespace: 5.1.1(postcss@8.4.19)
-      postcss-ordered-values: 5.1.3(postcss@8.4.19)
-      postcss-reduce-initial: 5.1.2(postcss@8.4.19)
-      postcss-reduce-transforms: 5.1.0(postcss@8.4.19)
-      postcss-svgo: 5.1.0(postcss@8.4.19)
-      postcss-unique-selectors: 5.1.1(postcss@8.4.19)
+      css-declaration-sorter: 6.4.1(postcss@8.4.31)
+      cssnano-utils: 3.1.0(postcss@8.4.31)
+      postcss: 8.4.31
+      postcss-calc: 8.2.4(postcss@8.4.31)
+      postcss-colormin: 5.3.1(postcss@8.4.31)
+      postcss-convert-values: 5.1.3(postcss@8.4.31)
+      postcss-discard-comments: 5.1.2(postcss@8.4.31)
+      postcss-discard-duplicates: 5.1.0(postcss@8.4.31)
+      postcss-discard-empty: 5.1.1(postcss@8.4.31)
+      postcss-discard-overridden: 5.1.0(postcss@8.4.31)
+      postcss-merge-longhand: 5.1.7(postcss@8.4.31)
+      postcss-merge-rules: 5.1.4(postcss@8.4.31)
+      postcss-minify-font-values: 5.1.0(postcss@8.4.31)
+      postcss-minify-gradients: 5.1.1(postcss@8.4.31)
+      postcss-minify-params: 5.1.4(postcss@8.4.31)
+      postcss-minify-selectors: 5.2.1(postcss@8.4.31)
+      postcss-normalize-charset: 5.1.0(postcss@8.4.31)
+      postcss-normalize-display-values: 5.1.0(postcss@8.4.31)
+      postcss-normalize-positions: 5.1.1(postcss@8.4.31)
+      postcss-normalize-repeat-style: 5.1.1(postcss@8.4.31)
+      postcss-normalize-string: 5.1.0(postcss@8.4.31)
+      postcss-normalize-timing-functions: 5.1.0(postcss@8.4.31)
+      postcss-normalize-unicode: 5.1.1(postcss@8.4.31)
+      postcss-normalize-url: 5.1.0(postcss@8.4.31)
+      postcss-normalize-whitespace: 5.1.1(postcss@8.4.31)
+      postcss-ordered-values: 5.1.3(postcss@8.4.31)
+      postcss-reduce-initial: 5.1.2(postcss@8.4.31)
+      postcss-reduce-transforms: 5.1.0(postcss@8.4.31)
+      postcss-svgo: 5.1.0(postcss@8.4.31)
+      postcss-unique-selectors: 5.1.1(postcss@8.4.31)
 
   /cssnano-preset-default@6.0.1(postcss@8.4.31):
     resolution: {integrity: sha512-7VzyFZ5zEB1+l1nToKyrRkuaJIx0zi/1npjvZfbBwbtNTzhLtlvYraK/7/uqmX2Wb2aQtd983uuGw79jAjLSuQ==}
@@ -14150,7 +13761,7 @@ packages:
       postcss-unique-selectors: 6.0.0(postcss@8.4.31)
     dev: false
 
-  /cssnano-utils@3.1.0(postcss@8.4.19):
+  /cssnano-utils@3.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-JQNR19/YZhz4psLX/rQ9M83e3z2Wf/HdJbryzte4a3NSuafyp9w/I4U+hx5C2S9g41qlstH7DEWnZaaj83OuEA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -14159,7 +13770,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /cssnano-utils@4.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-Z39TLP+1E0KUcd7LGyF4qMfu8ZufI0rDzhdyAMsa/8UyNUU8wpS0fhdBxbQbv32r64ea00h4878gommRVg2BHw==}
@@ -14173,7 +13784,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /cssnano@5.1.15(postcss@8.4.19):
+  /cssnano@5.1.15(postcss@8.4.31):
     resolution: {integrity: sha512-j+BKgDcLDQA+eDifLx0EO4XSA56b7uut3BQFH+wbSaSTuGLuiyTa/wbRYthUXX8LC9mLg+WWKe8h+qJuwTAbHw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -14182,9 +13793,9 @@ packages:
       postcss:
         optional: true
     dependencies:
-      cssnano-preset-default: 5.2.14(postcss@8.4.19)
+      cssnano-preset-default: 5.2.14(postcss@8.4.31)
       lilconfig: 2.1.0
-      postcss: 8.4.19
+      postcss: 8.4.31
       yaml: 1.10.2
 
   /cssnano@6.0.1(postcss@8.4.31):
@@ -16283,17 +15894,6 @@ packages:
     dependencies:
       safer-buffer: 2.1.2
 
-  /icss-utils@5.1.0(postcss@8.4.19):
-    resolution: {integrity: sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==}
-    engines: {node: ^10 || ^12 || >= 14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      postcss: 8.4.19
-
   /icss-utils@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==}
     engines: {node: ^10 || ^12 || >= 14}
@@ -18295,7 +17895,7 @@ packages:
       browserslist: 4.21.4
       postcss: 8.4.19
 
-  /postcss-calc@8.2.4(postcss@8.4.19):
+  /postcss-calc@8.2.4(postcss@8.4.31):
     resolution: {integrity: sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==}
     peerDependencies:
       postcss: '*'
@@ -18303,7 +17903,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
 
@@ -18369,7 +17969,7 @@ packages:
       postcss: 8.4.19
       postcss-value-parser: 4.2.0
 
-  /postcss-colormin@5.3.1(postcss@8.4.19):
+  /postcss-colormin@5.3.1(postcss@8.4.31):
     resolution: {integrity: sha512-UsWQG0AqTFQmpBegeLLc1+c3jIqBNB0zlDGRWR+dQ3pRKJL1oeMzyqmH3o2PIfn9MBdNrVPWhDbT769LxCTLJQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18378,10 +17978,10 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       colord: 2.9.3
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-colormin@6.0.0(postcss@8.4.31):
@@ -18400,7 +18000,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-convert-values@5.1.3(postcss@8.4.19):
+  /postcss-convert-values@5.1.3(postcss@8.4.31):
     resolution: {integrity: sha512-82pC1xkJZtcJEfiLw6UXnXVXScgtBrjlO5CBmuDQc+dlb88ZYheFsjTn40+zBVi3DkfF7iezO0nJUPLcJK3pvA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18409,8 +18009,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
-      postcss: 8.4.19
+      browserslist: 4.22.1
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-convert-values@6.0.0(postcss@8.4.31):
@@ -18475,7 +18075,7 @@ packages:
       postcss: 8.4.19
       postcss-selector-parser: 6.0.13
 
-  /postcss-discard-comments@5.1.2(postcss@8.4.19):
+  /postcss-discard-comments@5.1.2(postcss@8.4.31):
     resolution: {integrity: sha512-+L8208OVbHVF2UQf1iDmRcbdjJkuBF6IS29yBDSiWUIzpYaAhtNl6JYnYm12FnkeCwQqF5LeklOu6rAqgfBZqQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18484,7 +18084,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-discard-comments@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-p2skSGqzPMZkEQvJsgnkBhCn8gI7NzRH2683EEjrIkoMiwRELx68yoUJ3q3DGSGuQ8Ug9Gsn+OuDr46yfO+eFw==}
@@ -18498,7 +18098,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-discard-duplicates@5.1.0(postcss@8.4.19):
+  /postcss-discard-duplicates@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-zmX3IoSI2aoenxHV6C7plngHWWhUOV3sP1T8y2ifzxzbtnuhk1EdPwm0S1bIUNaJ2eNbWeGLEwzw8huPD67aQw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18507,7 +18107,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-discard-duplicates@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-bU1SXIizMLtDW4oSsi5C/xHKbhLlhek/0/yCnoMQany9k3nPBq+Ctsv/9oMmyqbR96HYHxZcHyK2HR5P/mqoGA==}
@@ -18521,7 +18121,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-discard-empty@5.1.1(postcss@8.4.19):
+  /postcss-discard-empty@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-zPz4WljiSuLWsI0ir4Mcnr4qQQ5e1Ukc3i7UfE2XcrwKK2LIPIqE5jxMRxO6GbI3cv//ztXDsXwEWT3BHOGh3A==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18530,7 +18130,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-discard-empty@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-b+h1S1VT6dNhpcg+LpyiUrdnEZfICF0my7HAKgJixJLW7BnNmpRH34+uw/etf5AhOlIhIAuXApSzzDzMI9K/gQ==}
@@ -18544,7 +18144,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-discard-overridden@5.1.0(postcss@8.4.19):
+  /postcss-discard-overridden@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-21nOL7RqWR1kasIVdKs8HNqQJhFxLsyRfAnUDm4Fe4t4mCWL9OJiHvlHPjcd8zc5Myu89b/7wZDnOSjFgeWRtw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18553,7 +18153,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-discard-overridden@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-4VELwssYXDFigPYAZ8vL4yX4mUepF/oCBeeIT4OXsJPYOtvJumyz9WflmJWTfDwCUcpDR+z0zvCWBXgTx35SVw==}
@@ -18722,7 +18322,7 @@ packages:
     dependencies:
       postcss: 8.4.19
 
-  /postcss-merge-longhand@5.1.7(postcss@8.4.19):
+  /postcss-merge-longhand@5.1.7(postcss@8.4.31):
     resolution: {integrity: sha512-YCI9gZB+PLNskrK0BB3/2OzPnGhPkBEwmwhfYk1ilBHYVAZB7/tkTHFBAnCrvBBOmeYyMYw3DMjT55SyxMBzjQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18731,9 +18331,9 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
-      stylehacks: 5.1.1(postcss@8.4.19)
+      stylehacks: 5.1.1(postcss@8.4.31)
 
   /postcss-merge-longhand@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-4VSfd1lvGkLTLYcxFuISDtWUfFS4zXe0FpF149AyziftPFQIWxjvFSKhA4MIxMe4XM3yTDgQMbSNgzIVxChbIg==}
@@ -18749,7 +18349,7 @@ packages:
       stylehacks: 6.0.0(postcss@8.4.31)
     dev: false
 
-  /postcss-merge-rules@5.1.4(postcss@8.4.19):
+  /postcss-merge-rules@5.1.4(postcss@8.4.31):
     resolution: {integrity: sha512-0R2IuYpgU93y9lhVbO/OylTtKMVcHb67zjWIfCiKR9rWL3GUk1677LAqD/BcHizukdZEjT8Ru3oHRoAYoJy44g==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18758,10 +18358,10 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
-      cssnano-utils: 3.1.0(postcss@8.4.19)
-      postcss: 8.4.19
+      cssnano-utils: 3.1.0(postcss@8.4.31)
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
 
   /postcss-merge-rules@6.0.1(postcss@8.4.31):
@@ -18780,7 +18380,7 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: false
 
-  /postcss-minify-font-values@5.1.0(postcss@8.4.19):
+  /postcss-minify-font-values@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-el3mYTgx13ZAPPirSVsHqFzl+BBBDrXvbySvPGFnQcTI4iNslrPaFq4muTkLZmKlGk4gyFAYUBMH30+HurREyA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18789,7 +18389,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-minify-font-values@6.0.0(postcss@8.4.31):
@@ -18805,7 +18405,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-minify-gradients@5.1.1(postcss@8.4.19):
+  /postcss-minify-gradients@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-VGvXMTpCEo4qHTNSa9A0a3D+dxGFZCYwR6Jokk+/3oB6flu2/PnPXAh2x7x52EkY5xlIHLm+Le8tJxe/7TNhzw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18815,8 +18415,8 @@ packages:
         optional: true
     dependencies:
       colord: 2.9.3
-      cssnano-utils: 3.1.0(postcss@8.4.19)
-      postcss: 8.4.19
+      cssnano-utils: 3.1.0(postcss@8.4.31)
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-minify-gradients@6.0.0(postcss@8.4.31):
@@ -18834,7 +18434,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-minify-params@5.1.4(postcss@8.4.19):
+  /postcss-minify-params@5.1.4(postcss@8.4.31):
     resolution: {integrity: sha512-+mePA3MgdmVmv6g+30rn57USjOGSAyuxUmkfiWpzalZ8aiBkdPYjXWtHuwJGm1v5Ojy0Z0LaSYhHaLJQB0P8Jw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18843,9 +18443,9 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
-      cssnano-utils: 3.1.0(postcss@8.4.19)
-      postcss: 8.4.19
+      browserslist: 4.22.1
+      cssnano-utils: 3.1.0(postcss@8.4.31)
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-minify-params@6.0.0(postcss@8.4.31):
@@ -18863,7 +18463,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-minify-selectors@5.2.1(postcss@8.4.19):
+  /postcss-minify-selectors@5.2.1(postcss@8.4.31):
     resolution: {integrity: sha512-nPJu7OjZJTsVUmPdm2TcaiohIwxP+v8ha9NehQ2ye9szv4orirRU3SDdtUmKH+10nzn0bAyOXZ0UEr7OpvLehg==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -18872,7 +18472,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
 
   /postcss-minify-selectors@6.0.0(postcss@8.4.31):
@@ -18888,17 +18488,6 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: false
 
-  /postcss-modules-extract-imports@3.0.0(postcss@8.4.19):
-    resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
-    engines: {node: ^10 || ^12 || >= 14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      postcss: 8.4.19
-
   /postcss-modules-extract-imports@3.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
@@ -18909,20 +18498,6 @@ packages:
         optional: true
     dependencies:
       postcss: 8.4.31
-
-  /postcss-modules-local-by-default@4.0.3(postcss@8.4.19):
-    resolution: {integrity: sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==}
-    engines: {node: ^10 || ^12 || >= 14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-selector-parser: 6.0.13
-      postcss-value-parser: 4.2.0
 
   /postcss-modules-local-by-default@4.0.3(postcss@8.4.31):
     resolution: {integrity: sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==}
@@ -18938,18 +18513,6 @@ packages:
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
 
-  /postcss-modules-scope@3.0.0(postcss@8.4.19):
-    resolution: {integrity: sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==}
-    engines: {node: ^10 || ^12 || >= 14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      postcss: 8.4.19
-      postcss-selector-parser: 6.0.13
-
   /postcss-modules-scope@3.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==}
     engines: {node: ^10 || ^12 || >= 14}
@@ -18961,18 +18524,6 @@ packages:
     dependencies:
       postcss: 8.4.31
       postcss-selector-parser: 6.0.13
-
-  /postcss-modules-values@4.0.0(postcss@8.4.19):
-    resolution: {integrity: sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ==}
-    engines: {node: ^10 || ^12 || >= 14}
-    peerDependencies:
-      postcss: '*'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
 
   /postcss-modules-values@4.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ==}
@@ -18999,7 +18550,7 @@ packages:
       postcss: 8.4.19
       postcss-selector-parser: 6.0.13
 
-  /postcss-normalize-charset@5.1.0(postcss@8.4.19):
+  /postcss-normalize-charset@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-mSgUJ+pd/ldRGVx26p2wz9dNZ7ji6Pn8VWBajMXFf8jk7vUoSrZ2lt/wZR7DtlZYKesmZI680qjr2CeFF2fbUg==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19008,7 +18559,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-normalize-charset@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-cqundwChbu8yO/gSWkuFDmKrCZ2vJzDAocheT2JTd0sFNA4HMGoKMfbk2B+J0OmO0t5GUkiAkSM5yF2rSLUjgQ==}
@@ -19022,7 +18573,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-normalize-display-values@5.1.0(postcss@8.4.19):
+  /postcss-normalize-display-values@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-WP4KIM4o2dazQXWmFaqMmcvsKmhdINFblgSeRgn8BJ6vxaMyaJkwAzpPpuvSIoG/rmX3M+IrRZEz2H0glrQNEA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19031,7 +18582,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-display-values@6.0.0(postcss@8.4.31):
@@ -19047,7 +18598,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-positions@5.1.1(postcss@8.4.19):
+  /postcss-normalize-positions@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-6UpCb0G4eofTCQLFVuI3EVNZzBNPiIKcA1AKVka+31fTVySphr3VUgAIULBhxZkKgwLImhzMR2Bw1ORK+37INg==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19056,7 +18607,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-positions@6.0.0(postcss@8.4.31):
@@ -19072,7 +18623,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-repeat-style@5.1.1(postcss@8.4.19):
+  /postcss-normalize-repeat-style@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-mFpLspGWkQtBcWIRFLmewo8aC3ImN2i/J3v8YCFUwDnPu3Xz4rLohDO26lGjwNsQxB3YF0KKRwspGzE2JEuS0g==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19081,7 +18632,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-repeat-style@6.0.0(postcss@8.4.31):
@@ -19097,7 +18648,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-string@5.1.0(postcss@8.4.19):
+  /postcss-normalize-string@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-oYiIJOf4T9T1N4i+abeIc7Vgm/xPCGih4bZz5Nm0/ARVJ7K6xrDlLwvwqOydvyL3RHNf8qZk6vo3aatiw/go3w==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19106,7 +18657,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-string@6.0.0(postcss@8.4.31):
@@ -19122,7 +18673,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-timing-functions@5.1.0(postcss@8.4.19):
+  /postcss-normalize-timing-functions@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-DOEkzJ4SAXv5xkHl0Wa9cZLF3WCBhF3o1SKVxKQAa+0pYKlueTpCgvkFAHfk+Y64ezX9+nITGrDZeVGgITJXjg==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19131,7 +18682,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-timing-functions@6.0.0(postcss@8.4.31):
@@ -19147,7 +18698,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-unicode@5.1.1(postcss@8.4.19):
+  /postcss-normalize-unicode@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-qnCL5jzkNUmKVhZoENp1mJiGNPcsJCs1aaRmURmeJGES23Z/ajaln+EPTD+rBeNkSryI+2WTdW+lwcVdOikrpA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19156,8 +18707,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
-      postcss: 8.4.19
+      browserslist: 4.22.1
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-unicode@6.0.0(postcss@8.4.31):
@@ -19174,7 +18725,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-url@5.1.0(postcss@8.4.19):
+  /postcss-normalize-url@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-5upGeDO+PVthOxSmds43ZeMeZfKH+/DKgGRD7TElkkyS46JXAUhMzIKiCa7BabPeIy3AQcTkXwVVN7DbqsiCew==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19184,7 +18735,7 @@ packages:
         optional: true
     dependencies:
       normalize-url: 6.1.0
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-url@6.0.0(postcss@8.4.31):
@@ -19200,7 +18751,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-normalize-whitespace@5.1.1(postcss@8.4.19):
+  /postcss-normalize-whitespace@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-83ZJ4t3NUDETIHTa3uEg6asWjSBYL5EdkVB0sDncx9ERzOKBVJIUeDO9RyA9Zwtig8El1d79HBp0JEi8wvGQnA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19209,7 +18760,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-normalize-whitespace@6.0.0(postcss@8.4.31):
@@ -19254,7 +18805,7 @@ packages:
     dependencies:
       postcss: 8.4.19
 
-  /postcss-ordered-values@5.1.3(postcss@8.4.19):
+  /postcss-ordered-values@5.1.3(postcss@8.4.31):
     resolution: {integrity: sha512-9UO79VUhPwEkzbb3RNpqqghc6lcYej1aveQteWY+4POIwlqkYE21HKWaLDF6lWNuqCobEAyTovVhtI32Rbv2RQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19263,8 +18814,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      cssnano-utils: 3.1.0(postcss@8.4.19)
-      postcss: 8.4.19
+      cssnano-utils: 3.1.0(postcss@8.4.31)
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-ordered-values@6.0.0(postcss@8.4.31):
@@ -19339,7 +18890,7 @@ packages:
       '@csstools/postcss-trigonometric-functions': 1.0.2(postcss@8.4.19)
       '@csstools/postcss-unset-value': 1.0.2(postcss@8.4.19)
       autoprefixer: 10.4.16(postcss@8.4.19)
-      browserslist: 4.21.4
+      browserslist: 4.22.1
       css-blank-pseudo: 3.0.3(postcss@8.4.19)
       css-has-pseudo: 3.0.4(postcss@8.4.19)
       css-prefers-color-scheme: 6.0.3(postcss@8.4.19)
@@ -19387,7 +18938,7 @@ packages:
       postcss: 8.4.19
       postcss-selector-parser: 6.0.13
 
-  /postcss-reduce-initial@5.1.2(postcss@8.4.19):
+  /postcss-reduce-initial@5.1.2(postcss@8.4.31):
     resolution: {integrity: sha512-dE/y2XRaqAi6OvjzD22pjTUQ8eOfc6m/natGHgKFBK9DxFmIm69YmaRVQrGgFlEfc1HePIurY0TmDeROK05rIg==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19396,9 +18947,9 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
-      postcss: 8.4.19
+      postcss: 8.4.31
 
   /postcss-reduce-initial@6.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-s2UOnidpVuXu6JiiI5U+fV2jamAw5YNA9Fdi/GRK0zLDLCfXmSGqQtzpUPtfN66RtCbb9fFHoyZdQaxOB3WxVA==}
@@ -19414,7 +18965,7 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-reduce-transforms@5.1.0(postcss@8.4.19):
+  /postcss-reduce-transforms@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-2fbdbmgir5AvpW9RLtdONx1QoYG2/EtqpNQbFASDlixBbAYuTcJ0dECwlqNqH7VbaUnEnh8SrxOe2sRIn24XyQ==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19423,7 +18974,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   /postcss-reduce-transforms@6.0.0(postcss@8.4.31):
@@ -19468,7 +19019,7 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  /postcss-svgo@5.1.0(postcss@8.4.19):
+  /postcss-svgo@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-D75KsH1zm5ZrHyxPakAxJWtkyXew5qwS70v56exwvw542d9CRtTo78K0WeFxZB4G7JXKKMbEZtZayTGdIky/eA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19477,7 +19028,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
       svgo: 2.8.0
 
@@ -19495,7 +19046,7 @@ packages:
       svgo: 3.0.2
     dev: false
 
-  /postcss-unique-selectors@5.1.1(postcss@8.4.19):
+  /postcss-unique-selectors@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-5JiODlELrz8L2HwxfPnhOWZYWDxVHWL83ufOv84NrcgipI7TaeRsatAhK4Tr2/ZiYldpK/wBvw5BD3qfaK96GA==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -19504,7 +19055,7 @@ packages:
       postcss:
         optional: true
     dependencies:
-      postcss: 8.4.19
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
 
   /postcss-unique-selectors@6.0.0(postcss@8.4.31):
@@ -19784,7 +19335,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.13
       address: 1.2.2
-      browserslist: 4.21.4
+      browserslist: 4.22.1
       chalk: 4.1.2
       cross-spawn: 7.0.3
       detect-port-alt: 1.1.6
@@ -20265,7 +19816,7 @@ packages:
       adjust-sourcemap-loader: 4.0.0
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
-      postcss: 8.4.19
+      postcss: 8.4.31
       source-map: 0.6.1
 
   /resolve.exports@2.0.2:
@@ -20851,7 +20402,7 @@ packages:
     dependencies:
       inline-style-parser: 0.1.1
 
-  /stylehacks@5.1.1(postcss@8.4.19):
+  /stylehacks@5.1.1(postcss@8.4.31):
     resolution: {integrity: sha512-sBpcd5Hx7G6seo7b1LkpttvTz7ikD0LlH5RmdcBNb6fFR0Fl7LQwHDFr300q4cwUqi+IYrFGmsIHieMBfnN/Bw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
@@ -20860,8 +20411,8 @@ packages:
       postcss:
         optional: true
     dependencies:
-      browserslist: 4.21.4
-      postcss: 8.4.19
+      browserslist: 4.22.1
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
 
   /stylehacks@6.0.0(postcss@8.4.31):
@@ -21978,26 +21529,27 @@ packages:
 
   file:scope-name/get-hello-world:
     resolution: {directory: scope-name/get-hello-world, type: directory}
-    name: '@org/scope-name.get-hello-world'
+    name: '@bit-poc/crja-scope.get-hello-world'
     dev: false
 
   file:scope-name/hello-world-app(react-dom@18.2.0):
     resolution: {directory: scope-name/hello-world-app, type: directory}
     id: file:scope-name/hello-world-app
-    name: '@org/scope-name.hello-world-app'
+    name: '@bit-poc/crja-scope.hello-world-app'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
       react-dom:
         optional: true
     dependencies:
+      '@bit-poc/crja-scope.ui.hello-world': file:scope-name/ui/hello-world
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0):
     resolution: {directory: scope-name/my-react-env, type: directory}
     id: file:scope-name/my-react-env
-    name: '@org/scope-name.my-react-env'
+    name: '@bit-poc/crja-scope.my-react-env'
     dependencies:
       '@babel/runtime': 7.20.0
       '@mdx-js/react': 1.6.22(react@18.2.0)
@@ -22064,5 +21616,7 @@ packages:
 
   file:scope-name/ui/hello-world:
     resolution: {directory: scope-name/ui/hello-world, type: directory}
-    name: '@org/scope-name.ui.hello-world'
+    name: '@bit-poc/crja-scope.ui.hello-world'
+    dependencies:
+      '@bit-poc/crja-scope.get-hello-world': file:scope-name/get-hello-world
     dev: false
