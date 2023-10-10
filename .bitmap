@@ -12,6 +12,7 @@
     "apps/greetings": {
         "scope": "",
         "version": "",
+        "defaultScope": "crja-scope",
         "mainFile": "index.ts",
         "rootDir": "scope-name/apps/greetings",
         "config": {
