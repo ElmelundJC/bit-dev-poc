@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "bit-poc.crja-scope",
+    "defaultScope": "abgtest.crja-scope",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
